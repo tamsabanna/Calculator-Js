@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <nav>
+        <h1>Calculator</h1>
+    </nav>
+    <main>
+        <div id="showArea">
+            <span id="history">history</span>
+            <input id="inputArea"  >
+        </div>
+        <div id="box" >
+            <p id="clear" class="calculate">C</p>
+            <p id="%" class="calculate">%</p>
+            <p id="delete" class="calculate">Del</p>
+            <p id="/" class="calculate">/</p>
+            <p id="7" class="value">7</p>
+            <p id="8" class="value">8</p>
+            <p id="9" class="value">9</p>
+            <p id="*" class="calculate">x</p>
+            <p id="4" class="value">4</p>
+            <p id="5" class="value">5</p>
+            <p id="6" class="value">6</p>
+            <p id="-" class="calculate">-</p>
+            <p id="1" class="value">1</p>
+            <p id="2" class="value">2</p>
+            <p id="3" class="value">3</p>
+            <p id="+" class="calculate">+</p>
+            <p id="00" class="value">00</p>
+            <p id="0" class="value">0</p>
+            <p id="." class="calculate">.</p>
+            <p id="=" class="calculate">=</p>
+        </div>
+    </main>
+
+    <script>
+     window.onload = function() {
+        document.getElementById('inputArea').focus();
+      };
+    </script>
+
+    <script src="jsFile.js"></script>
+</body>
+</html>
